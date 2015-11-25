@@ -1,4 +1,4 @@
-# Zurb Foundation for sites support for Atom
+# Zurb Foundation for sites support for [Atom.io](https://atom.io/)
 
 Provides [Zurb Foundation for sites][1] classes and HTML tags with autocompletion features.
 
