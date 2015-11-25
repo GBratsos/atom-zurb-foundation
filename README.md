@@ -2,7 +2,7 @@
 
 Provides [Zurb Foundation for sites][1] classes and HTML tags with autocompletion features.
 
-![Atom.io Zurb Foundation 6](https://github.com/GBratsos/atom-zurbfoundation/blob/master/image.jpg?raw=true)
+![Atom.io Zurb Foundation 6](https://github.com/GBratsos/atom-zurb-foundation/blob/master/image.jpg?raw=true)
 
 Install:
 ```bash
