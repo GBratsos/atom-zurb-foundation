@@ -10,7 +10,7 @@
     "responsive framework",
     "zurb foundation"
   ],
-    "repository": "https://github.com/gbratsos/atom-zurbfoundation",
+    "repository": "https://github.com/gbratsos/atom-zurb-foundation",
     "license": "MIT",
     "engines": {
         "atom": ">=1.0.0 <2.0.0"
