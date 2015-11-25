@@ -1,0 +1,47 @@
+'.text.html':
+
+  'Row':
+    'prefix': 'row'
+    'body': """
+    <div class="row">
+      $1
+    </div>
+    """
+
+  'Small Grid':
+    'prefix': 'small-'
+    'body': """
+    <div class="small-${1:1-12} columns">
+      $0
+    </div>
+    """
+
+  'Medium Grid':
+    'prefix': 'medium-'
+    'body': """
+    <div class="medium-${1:1-12} columns">
+      $0
+    </div>
+    """
+
+  'Large Grid':
+    'prefix': 'large-'
+    'body': """
+    <div class="large-${1:1-12} columns">
+      $0
+    </div>
+    """
+  'XLarge Grid':
+    'prefix': 'xlarge-'
+    'body': """
+    <div class="xlarge-${1:1-12} columns">
+      $0
+    </div>
+    """
+  'XXLarge Grid':
+    'prefix': 'xxlarge-'
+    'body': """
+    <div class="xxlarge-${1:1-12} columns">
+      $0
+    </div>
+    """

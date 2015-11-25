@@ -1,0 +1,1108 @@
+".text.html":
+  'Button':
+    'prefix': 'button'
+    'body': """
+      <a href="$0" class="button">$1</a>
+    """
+  'Button Group':
+    'prefix': 'button-group'
+    'body': """
+    <div class="button-group">
+      <a class="button">$1</a>
+    </div>
+    """
+  'Secondary Button Group':
+    'prefix': 'secondary-button-group'
+    'body': """
+    <div class="expanded button-group">
+      <a class="button">$1</a>
+    </div>
+    """
+  'Expanded Button Group':
+    'prefix': 'expanded-button-group'
+    'body': """
+    <div class="expanded button-group">
+      <a class="button">$1</a>
+    </div>
+    """
+  'Stacked Button Group':
+    'prefix': 'stacked-button-group'
+    'body': """
+    <div class="stacked-for-small button-group">
+      <a class="button">$1</a>
+    </div>
+    """
+  'Split Buttons':
+    'prefix': 'split-buttons'
+    'body': """
+    <div class="button-group">
+      <a class="button">$1</a>
+      <a class="dropdown button arrow-only">
+        <span> class="show-for-sr">$2</span>
+      </a>
+    </div>
+    """
+  'Close Button':
+    'prefix': 'close-button'
+    'body': """
+    <button class="close-button arial-label="Close alert" type="button">
+      <span aria-hidden="true">&times'</span>
+    </button>
+    """
+  'Slider':
+    'prefix': 'slider'
+    'body': """
+      <div class="slider" data-slider data-initial-start='50' data-end='200'>
+        <span class="slider-handle"  data-slider-handle role="slider" tabindex="1"></span>
+        <span class="slider-fill" data-slider-fill></span>
+        <input type="hidden">
+      </div>
+      """
+  'Slider Vertical':
+    'prefix': 'slider-vertical'
+    'body': """
+      <div class="slider vertical" data-slider data-initial-start='25' data-end='200' data-vertical="true">
+        <span class="slider-handle" data-slider-handle role="slider" tabindex="1"></span>
+        <span class="slider-fill" data-slider-fill></span>
+        <input type="hidden">
+      </div>
+      """
+  'Slider Disbled':
+    'prefix': 'slider-disabled'
+    'body': """
+      <div class="slider disabled" data-slider data-initial-start='78'>
+        <span class="slider-handle" data-slider-handle role="slider" tabindex="1"></span>
+        <span class="slider-fill" data-slider-fill></span>
+        <input type="hidden">
+      </div>
+      """
+  'Slider Two handles':
+    'prefix': 'slider-two-handles'
+    'body': """
+      <div class="slider" data-slider data-initial-start='25' data-initial-end='75'>
+        <span class="slider-handle" data-slider-handle role="slider" tabindex="1"></span>
+        <span class="slider-fill" data-slider-fill></span>
+        <span class="slider-handle" data-slider-handle role="slider" tabindex="1"></span>
+        <input type="hidden">
+        <input type="hidden">
+      </div>
+      """
+  'Switch':
+    'prefix': 'switch'
+    'body': """
+      <div class="switch">
+        <input class="switch-input" id="exampleSwitch" type="checkbox" name="exampleSwitch">
+        <label class="switch-paddle" for="exampleSwitch">
+          <span class="show-for-sr">$1</span>
+        </label>
+      </div>
+      """
+  'Switch Radio':
+    'prefix': 'switch-radio'
+    'body': """
+      <div class="switch">
+        <input class="switch-input" id="exampleRadioSwitch1" type="radio" checked name="testGroup">
+        <label class="switch-paddle" for="exampleRadioSwitch1">
+          <span class="show-for-sr">$1</span>
+        </label>
+      </div>
+      """
+  'Switch Advanced':
+    'prefix': 'switch-advanced'
+    'body': """
+      <p>Do you like me?</p>
+      <div class="switch large">
+        <input class="switch-input" id="yes-no" type="checkbox" name="exampleSwitch">
+        <label class="switch-paddle" for="yes-no">
+          <span class="show-for-sr">Do you like me?</span>
+          <span class="switch-active" aria-hidden="true">Yes</span>
+          <span class="switch-inactive" aria-hidden="true">No</span>
+        </label>
+      </div>
+      """
+  'Menu':
+    'prefix': 'menu'
+    'body': """
+      <ul class="menu">
+        <li><a href="#">Item One</a></li>
+        <li><a href="#">Item Two</a></li>
+        <li><a href="#">Item Three</a></li>
+      </ul>
+      """
+  'Dropdown Menu':
+    'prefix': 'dropdown-menu'
+    'body': """
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li>
+          <a>Item 1</a>
+          <ul class="menu">
+            <li><a href="#">Item 1A Loooong</a></li>
+            <li>
+              <a href='#'> Item 1 sub</a>
+              <ul class='menu'>
+                <li><a href='#'>Item 1 subA</a></li>
+                <li><a href='#'>Item 1 subB</a></li>
+                <li>
+                  <a href='#'> Item 1 sub</a>
+                  <ul class='menu'>
+                    <li><a href='#'>Item 1 subA</a></li>
+                    <li><a href='#'>Item 1 subB</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href='#'> Item 1 sub</a>
+                  <ul class='menu'>
+                    <li><a href='#'>Item 1 subA</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Item 1B</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Item 2</a>
+          <ul class="menu">
+            <li><a href="#">Item 2A</a></li>
+            <li><a href="#">Item 2B</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Item 3</a></li>
+        <li><a href='#'>Item 4</a></li>
+      </ul>
+      """
+  'Accordion Menu':
+    'prefix': 'accordion-menu'
+    'body': """
+      <ul class="vertical menu" data-accordion-menu>
+        <li>
+          <a href="#">Item 1</a>
+          <ul class="menu vertical nested is-active">
+            <li>
+              <a href="#">Item 1A</a>
+              <ul class="menu vertical nested">
+                <li><a href="#">Item 1Ai</a></li>
+                <li><a href="#">Item 1Aii</a></li>
+                <li><a href="#">Item 1Aiii</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Item 1B</a></li>
+            <li><a href="#">Item 1C</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Item 2</a>
+          <ul class="menu vertical nested">
+            <li><a href="#">Item 2A</a></li>
+            <li><a href="#">Item 2B</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Item 3</a></li>
+      </ul>
+      """
+  'TopBar Menu':
+    'prefix': 'topbar-menu'
+    'body': """
+      <div class="top-bar">
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text">Site Title</li>
+            <li class="has-submenu">
+              <a href="#">One</a>
+              <ul class="submenu menu vertical" data-submenu>
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Two</a></li>
+            <li><a href="#">Three</a></li>
+          </ul>
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li><input type="search" placeholder="Search"></li>
+            <li><button type="button" class="button">Search</button></li>
+          </ul>
+        </div>
+      </div>
+      """
+  'Responsive Menu':
+    'prefix': 'responsive-menu'
+    'body': """
+      <ul class="vertical medium-horizontal menu">
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+      </ul>
+      """
+  'Responsive Menu Vertical':
+    'prefix': 'responsive-menu-vertical'
+    'body': """
+      <ul class="vertical menu" data-responsive-menu="drilldown medium-dropdown" style="width: 300px;">
+        <li class="has-submenu">
+          <a href="#">Item 1</a>
+          <ul class="vertical submenu menu" data-submenu id="m2">
+            <li class="has-submenu">
+              <a href="#">Item 1A</a>
+              <ul class="vertical submenu menu" data-submenu id="m3">
+                <li><a href="#">Item 1A</a></li>
+                <li><a href="#">Item 1B</a></li>
+                <li><a href="#">Item 1C</a></li>
+                <li><a href="#">Item 1D</a></li>
+                <li><a href="#">Item 1E</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Item 1B</a></li>
+          </ul>
+        </li>
+        <li class="has-submenu">
+          <a href="#">Item 2</a>
+          <ul class="vertical submenu menu" data-submenu>
+            <li><a href="#">Item 2A</a></li>
+            <li><a href="#">Item 2B</a></li>
+          </ul>
+        </li>
+        <li class="has-submenu">
+          <a href="#">Item 3</a>
+          <ul class="vertical submenu menu" data-submenu>
+            <li><a href="#">Item 3A</a></li>
+            <li><a href="#">Item 3B</a></li>
+          </ul>
+        </li>
+      </ul>
+      """
+  'Responsive Toggle':
+    'prefix': 'responsive-menu-toggle'
+    'body': """
+      <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle></button>
+        <div class="title-bar-title">Menu</div>
+      </div>
+
+      <div class="top-bar" id="example-menu">
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text">Site Title</li>
+            <li class="has-submenu">
+              <a href="#">One</a>
+              <ul class="submenu menu vertical" data-submenu>
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Two</a></li>
+            <li><a href="#">Three</a></li>
+          </ul>
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li><input type="search" placeholder="Search"></li>
+            <li><button type="button" class="button">Search</button></li>
+          </ul>
+        </div>
+      </div>
+      """
+  'Magellan':
+    'prefix': 'magellan-menu'
+    'body': """
+      <ul class="horizontal menu" data-magellan>
+        <li><a href="#first">First Arrival</a></li>
+        <li><a href="#second">Second Arrival</a></li>
+        <li><a href="#third">Third Arrival</a></li>
+      </ul>
+      <div class="sections">
+        <section id="first" data-magellan-target="first">First Section</section>
+        <section id="second" data-magellan-target="second">Second Section</section>
+        <section id="third" data-magellan-target="third">Third Section</section>
+      </div>
+      """
+  'Sticky':
+    'prefix': 'sticky'
+    'body': """
+    <div data-sticky="header">$1</div>
+    """
+  'Pagination':
+    'prefix': 'pagination'
+    'body': """
+      <ul class="pagination" role="navigation" aria-label="Pagination">
+        <li class="disabled">Previous <span class="show-for-sr">page</span></li>
+        <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+        <li><a href="#" aria-label="Page 2">2</a></li>
+        <li><a href="#" aria-label="Page 3">3</a></li>
+        <li><a href="#" aria-label="Page 4">4</a></li>
+        <li class="ellipsis" aria-hidden="true"></li>
+        <li><a href="#" aria-label="Page 12">12</a></li>
+        <li><a href="#" aria-label="Page 13">13</a></li>
+        <li><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+      </ul>
+      """
+  'Pagination':
+    'prefix': 'pagination-centered'
+    'body': """
+      <ul class="pagination text-center" role="navigation" aria-label="Pagination">
+        <li class="disabled">Previous</li>
+        <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+        <li><a href="#" aria-label="Page 2">2</a></li>
+        <li><a href="#" aria-label="Page 3">3</a></li>
+        <li><a href="#" aria-label="Page 4">4</a></li>
+        <li class="ellipsis"></li>
+        <li><a href="#" aria-label="Page 12">12</a></li>
+        <li><a href="#" aria-label="Page 13">13</a></li>
+        <li><a href="#" aria-label="Next page">Next</a></li>
+      </ul>
+      """
+  'Breadcrumb':
+    'prefix': 'breadcrumb'
+    'body': """
+      <nav aria-label="You are here:" role="navigation">
+        <ul class="breadcrumbs">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li class="disabled">Gene Splicing</li>
+          <li>
+            <span class="show-for-sr">Current: </span> Cloning
+          </li>
+        </ul>
+      </nav>
+      """
+  'Accordion':
+    'prefix': 'accordion'
+    'body': """
+      <ul class="accordion" data-accordion role="tablist">
+        <li class="accordion-item is-active">
+          <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
+          <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Accordion 1</a>
+          <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
+          <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+            Panel 1. Lorem ipsum dolor
+          </div>
+        </li>
+      </ul>
+      """
+  'Accordion Multi-expand':
+    'prefix': 'accordion-multiexpand'
+    'body': """
+      <ul class="accordion" data-accordion data-multi-expand="true">
+        <li class="accordion-item is-active">
+          <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
+          <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Accordion 1</a>
+          <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
+          <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+            Panel 1. Lorem ipsum dolor
+          </div>
+        </li>
+      </ul>
+      """
+  'Accordion Multi-expand':
+    'prefix': 'accordion-closed'
+    'body': """
+      <ul class="accordion" data-accordion data-allow-all-closed="true">
+        <li class="accordion-item is-active">
+          <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
+          <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Accordion 1</a>
+          <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
+          <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+            Panel 1. Lorem ipsum dolor
+          </div>
+        </li>
+      </ul>
+      """
+  'Callout':
+    'prefix': 'callout'
+    'body': """
+      <div class="callout">
+        <h5>This is a callout.</h5>
+        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        <a href="#">It's dangerous to go alone, take this.</a>
+      </div>
+      """
+  'Callout Primary':
+    'prefix': 'callout-primary'
+    'body': """
+      <div class="callout primary">
+        <h5>This is a secondary panel</h5>
+        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        <a href="#">It's dangerous to go alone, take this.</a>
+      </div>
+      """
+  'Callout Secondary':
+    'prefix': 'callout-secondary'
+    'body': """
+      <div class="callout secondary">
+        <h5>This is a secondary panel</h5>
+        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        <a href="#">It's dangerous to go alone, take this.</a>
+      </div>
+      """
+  'Callout Success':
+    'prefix': 'callout-success'
+    'body': """
+      <div class="callout success">
+        <h5>This is a secondary panel</h5>
+        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        <a href="#">It's dangerous to go alone, take this.</a>
+      </div>
+      """
+  'Callout Warning':
+    'prefix': 'callout-warning'
+    'body': """
+      <div class="callout warning">
+        <h5>This is a secondary panel</h5>
+        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        <a href="#">It's dangerous to go alone, take this.</a>
+      </div>
+      """
+  'Callout Alert':
+    'prefix': 'callout-alert'
+    'body': """
+      <div class="callout alert">
+        <h5>This is a secondary panel</h5>
+        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        <a href="#">It's dangerous to go alone, take this.</a>
+      </div>
+      """
+  'Callout Small':
+    'prefix': 'callout-small'
+    'body': """
+      <div class="callout small">
+        <h5>This is a secondary panel</h5>
+        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        <a href="#">It's dangerous to go alone, take this.</a>
+      </div>
+      """
+  'Callout Large':
+    'prefix': 'callout-large'
+    'body': """
+      <div class="callout large">
+        <h5>This is a secondary panel</h5>
+        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        <a href="#">It's dangerous to go alone, take this.</a>
+      </div>
+      """
+  'Callout alert':
+    'prefix': 'callout-alert'
+    'body': """
+      <div class="alert callout" data-closable>
+        <h5>This is Important!</h5>
+        <p>But when you're done reading it, click the close button in the corner to dismiss this alert.</p>
+        <button class="close-button" data-close aria-label="Dismiss alert">&times;</button>
+      </div>
+      """
+  'Dropdown Toggle':
+    'prefix': 'dropdown-toggle'
+    'body': """
+      <button class="button" type="button" data-toggle="example-dropdown">Toggle Dropdown</button>
+      <div class="dropdown-pane" id="example-dropdown" data-dropdown>
+        Just some junk that needs to be said. Or not. Your choice.
+      </div>
+      """
+  'Dropdown Hover':
+    'prefix': 'dropdown-hover'
+    'body': """
+      <button class="button" type="button" data-toggle="example-dropdown-1">Hoverable Dropdown</button>
+      <div class="dropdown-pane" id="example-dropdown-1" data-dropdown data-hover="true">
+        Just some junk that needs to be said. Or not. Your choice.
+      </div>
+      """
+  'Off-canvas':
+    'prefix': 'off-canvas'
+    'body': """
+      <div class="off-canvas-wrapper">
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+          <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-position="left"></div>
+          <div class="off-canvas-content" data-off-canvas-content></div>
+        </div>
+      </div>
+      """
+  'Modal':
+    'prefix': 'modal'
+    'body': """
+      <p><a data-open="exampleModal1">Click me for a modal</a></p>
+
+      <div class="reveal" id="exampleModal1" data-reveal>
+        <h1>Awesome. I Have It.</h1>
+        <p class="lead">Your couch. It is mine.</p>
+        <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      """
+    'Modal in modal':
+      'prefix': 'modal-in-modal'
+      'body': """
+        <p><a data-toggle="exampleModal11">Click me for a modal</a></p>
+
+        <div class="reveal" id="exampleModal11" data-reveal>
+          <h1>Awesome!</h1>
+          <p class="lead">I have another modal inside of me!</p>
+          <a class='button' data-toggle='exampleModal111'>Click me for another modal!</a>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class='reveal' id='exampleModal111' data-reveal>
+          <h2>ANOTHER MODAL!!!</h2>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        """
+  'Modal video':
+    'prefix': 'modal-video'
+    'body': """
+      <p><a data-toggle="exampleModal12">Click me for a modal</a></p>
+
+      <div class="reveal" id="exampleModal12" data-reveal data-reset-on-close='true'>
+        <h2 id="videoModalTitle">This modal has video</h2>
+        <div class="flex-video widescreen vimeo">
+          <iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/wnXCopXXblE?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      """
+  'Modal tiny':
+    'prefix': 'modal-tiny'
+    'body': """
+      <p><a data-toggle="exampleModal2" aria-controls='exampleModal2'>Click me for a tiny modal</a></p>
+
+      <div class="tiny reveal" id="exampleModal2" data-reveal>
+        <p>OH I'M SO TIIINY</p>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      """
+  'Modal small':
+    'prefix': 'modal-small'
+    'body': """
+      <p><a data-toggle="exampleModal2" aria-controls='exampleModal2'>Click me for a tiny modal</a></p>
+
+      <div class="small reveal" id="exampleModal2" data-reveal>
+        <p>OH I'M SO TIIINY</p>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      """
+  'Modal medium':
+    'prefix': 'modal-medium'
+    'body': """
+      <p><a data-toggle="exampleModal2" aria-controls='exampleModal2'>Click me for a tiny modal</a></p>
+
+      <div class="medium reveal" id="exampleModal2" data-reveal>
+        <p>OH I'M SO TIIINY</p>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      """
+  'Modal large':
+    'prefix': 'modal-large'
+    'body': """
+      <p><a data-toggle="exampleModal2" aria-controls='exampleModal2'>Click me for a tiny modal</a></p>
+
+      <div class="large reveal" id="exampleModal2" data-reveal>
+        <p>OH I'M SO TIIINY</p>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      """
+  'Modal xlarge':
+    'prefix': 'modal-xlarge'
+    'body': """
+      <p><a data-toggle="exampleModal2" aria-controls='exampleModal2'>Click me for a tiny modal</a></p>
+
+      <div class="xlarge reveal" id="exampleModal2" data-reveal>
+        <p>OH I'M SO TIIINY</p>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      """
+  'Modal full':
+    'prefix': 'modal-full'
+    'body': """
+      <p><a data-toggle="exampleModal2" aria-controls='exampleModal2'>Click me for a tiny modal</a></p>
+
+      <div class="full reveal" id="exampleModal2" data-reveal>
+        <p>OH I'M SO TIIINY</p>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      """
+  'Modal No Overlay':
+    'prefix': 'modal-no-overlay'
+    'body': """
+      <p><a data-toggle="exampleModal4">Click me for an overlay-lacking modal</a></p>
+
+      <div class="reveal" id="exampleModal4" data-reveal data-overlay="false">
+        <p>I feel so free!</p>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      """
+  'Modal Animation':
+    'prefix': 'modal-animation'
+    'body': """
+      <p><a data-toggle="animatedModal1">Click me for a modal</a></p>
+
+      <div class="reveal" id="animatedModal1" data-reveal data-close-on-click='true' data-animation-in='spin-in' data-animation-out='spin-out'>
+        <h1>Whoa, I'm dizzy!</h1>
+        <p class='lead'>There are many options for animating modals, check out the Motion UI library to see them all</p>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      """
+  'Table':
+    'prefix': 'table-zf'
+    'body': """
+      <table>
+        <thead>
+          <tr>
+            <th width="200">Table Header</th>
+            <th>Table Header</th>
+            <th width="150">Table Header</th>
+            <th width="150">Table Header</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Content Goes Here</td>
+            <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+            <td>Content Goes Here</td>
+            <td>Content Goes Here</td>
+          </tr>
+          <tr>
+            <td>Content Goes Here</td>
+            <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+            <td>Content Goes Here</td>
+            <td>Content Goes Here</td>
+          </tr>
+          <tr>
+            <td>Content Goes Here</td>
+            <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+            <td>Content Goes Here</td>
+            <td>Content Goes Here</td>
+          </tr>
+        </tbody>
+      </table>
+      """
+  'Table Hover':
+    'prefix': 'table-hover'
+    'body': """
+      <table class="hover">
+        <thead>
+          <tr>
+            <th width="200">Table Header</th>
+            <th>Table Header</th>
+            <th width="150">Table Header</th>
+            <th width="150">Table Header</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Content Goes Here</td>
+            <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+            <td>Content Goes Here</td>
+            <td>Content Goes Here</td>
+          </tr>
+          <tr>
+            <td>Content Goes Here</td>
+            <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+            <td>Content Goes Here</td>
+            <td>Content Goes Here</td>
+          </tr>
+          <tr>
+            <td>Content Goes Here</td>
+            <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+            <td>Content Goes Here</td>
+            <td>Content Goes Here</td>
+          </tr>
+        </tbody>
+      </table>
+      """
+  'Table Stack':
+    'prefix': 'table-stack'
+    'body': """
+      <table class="stack">
+        <thead>
+          <tr>
+            <th>Cookies</th>
+            <th>Taste</th>
+            <th>Calories</th>
+            <th>Overall</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Chocolate Chip</td>
+            <td>Tastey</td>
+            <td>120cal</td>
+            <td>7.5/10</td>
+          </tr>
+          <tr>
+            <td>Snickerdoodle</td>
+            <td>Delicious</td>
+            <td>95cal</td>
+            <td>8/10</td>
+          </tr>
+          <tr>
+            <td>Oatmeal Raisin</td>
+            <td>Superb</td>
+            <td>10cal</td>
+            <td>11/10</td>
+          </tr>
+        </tbody>
+      </table>
+      """
+  'Table Scroll':
+    'prefix': 'table-scroll'
+    'body': """
+      <table class="scroll">
+        <thead>
+          <tr>
+            <th>This is the description!</th>
+            <th>One</th>
+            <th>Two</th>
+            <th>Three</th>
+            <th>Four</th>
+            <th>Five</th>
+            <th>Six</th>
+            <th>Seven</th>
+            <th>Eight</th>
+            <th>Nine</th>
+            <th>Ten</th>
+            <th>Eleven</th>
+            <th>Twelve</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="display:block; width:400px;">These are all the words that people use to describe Foundation 6!</td>
+            <td>Cool</td>
+            <td>Swag</td>
+            <td>Chill</td>
+            <td>Killer</td>
+            <td>Rad</td>
+            <td>Baller</td>
+            <td>OMG</td>
+            <td>Sweet</td>
+            <td>Awesome</td>
+            <td>Beast</td>
+            <td>Dope</td>
+            <td>Tubular</td>
+          </tr>
+          <tr>
+            <td>These are some words that people use to describe other web frameworks.</td>
+            <td>Whatevs</td>
+            <td>Ugh.</td>
+            <td>LOL</td>
+            <td>K</td>
+            <td>Aight</td>
+            <td>Eh.</td>
+            <td>Grrr...</td>
+            <td>Meh.</td>
+            <td>TTYL</td>
+            <td>Bleh.</td>
+            <td>Really?</td>
+            <td>Why?</td>
+          </tr>
+          <tr>
+            <td>Here are some great super heros.</td>
+            <td>Batman</td>
+            <td>Superman</td>
+            <td>Spiderman</td>
+            <td>Wonder Woman</td>
+            <td>Hulk</td>
+            <td>Nicolas Cage</td>
+            <td>Antman</td>
+            <td>Aquaman</td>
+            <td>Captain America</td>
+            <td>Wolverine</td>
+            <td>Thor</td>
+            <td>Iron Man</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Here's a footer, just in case</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tfoot>
+      </table>
+      """
+  'Tabs':
+    'prefix': 'tabs'
+    'body': """
+      <ul class="tabs" data-tabs id="example-tabs">
+        <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Tab 1</a></li>
+        <li class="tabs-title"><a href="#panel2">Tab 2</a></li>
+      </ul>
+      <div class="tabs-content" data-tabs-content="example-tabs">
+        <div class="tabs-panel is-active" id="panel1">
+          <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+        </div>
+        <div class="tabs-panel" id="panel2">
+          <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+        </div>
+      </div>
+      """
+  'Tabs Vertical':
+    'prefix': 'tabs-vertical'
+    'body': """
+      <div class="row collapse">
+        <div class="medium-3 columns">
+          <ul class="tabs vertical" id="example-vert-tabs" data-tabs>
+            <li class="tabs-title is-active"><a href="#panel1v" aria-selected="true">Tab 1</a></li>
+            <li class="tabs-title"><a href="#panel2v">Tab 2</a></li>
+            <li class="tabs-title"><a href="#panel3v">Tab 3</a></li>
+            <li class="tabs-title"><a href="#panel4v">Tab 4</a></li>
+            <li class="tabs-title"><a href="#panel3v">Tab 5</a></li>
+            <li class="tabs-title"><a href="#panel4v">Tab 6</a></li>
+          </ul>
+          </div>
+          <div class="medium-9 columns">
+          <div class="tabs-content vertical" data-tabs-content="example-vert-tabs">
+            <div class="tabs-panel is-active" id="panel1v">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="tabs-panel" id="panel2v">
+              <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+            </div>
+            <div class="tabs-panel" id="panel3v">
+              <img class="thumbnail" src="assets/img/rectangle-3.jpg">
+            </div>
+            <div class="tabs-panel" id="panel4v">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="tabs-panel" id="panel5v">
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="tabs-panel" id="panel6v">
+              <img class="thumbnail" src="assets/img/rectangle-5.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+      """
+  'Badge':
+    'prefix': 'badge'
+    'body': """
+      <span class="badge">$1</span>
+      """
+  'Badge secondary':
+    'prefix': 'badge-secondary'
+    'body': """
+      <span class="secondary badge">$1</span>
+      """
+  'Badge Alert':
+    'prefix': 'badge-alert'
+    'body': """
+      <span class="alert badge">$1</span>
+      """
+  'Badge Success':
+    'prefix': 'badge-success'
+    'body': """
+      <span class="sucess badge">$1</span>
+      """
+  'Badge Warning':
+    'prefix': 'badge-warning'
+    'body': """
+      <span class="warning badge">$1</span>
+      """
+  'Label':
+    'prefix': 'label'
+    'body': """
+      <span class="label">$1</span>
+      """
+  'Orbit Slider':
+    'prefix': 'orbit-slider'
+    'body': """
+      <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+        <ul class="orbit-container">
+          <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+          <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+          <li class="is-active orbit-slide">
+            <div>
+              <h3 class="text-center">You can also throw some text in here!</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+              <h3 class="text-center">This Orbit slide has chill</h3>
+            </div>
+          </li>
+          <li class="orbit-slide">
+            <div>
+              <h3 class="text-center">You can also throw some text in here!</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+              <h3 class="text-center">This Orbit slide has chill</h3>
+            </div>
+          </li>
+          <li class="orbit-slide">
+            <div>
+              <h3 class="text-center">You can also throw some text in here!</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+              <h3 class="text-center">This Orbit slide has chill</h3>
+            </div>
+          </li>
+          <li class="orbit-slide">
+            <div>
+              <h3 class="text-center">You can also throw some text in here!</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+              <h3 class="text-center">This Orbit slide has chill</h3>
+            </div>
+          </li>
+        </ul>
+        <nav class="orbit-bullets">
+         <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+         <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+         <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+         <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+       </nav>
+      </div>
+      """
+  'Progress Bar':
+    'prefix': 'progressbar'
+    'body': """
+      <div class="progress" role="progressbar" tabindex="0" aria-valuenow="20" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
+        <span class="progress-meter" style="width: 25%">
+          <p class="progress-meter-text">25%</p>
+        </span>
+      </div>
+      """
+  'Thumbnail':
+    'prefix': 'thumbnail'
+    'body': """
+      <img class="thumbnail" src="assets/img/thumbnail/01.jpg" alt="Photo of Uranus.">
+      """
+  'Tooltip':
+    'prefix': 'tooltip'
+    'body': """
+      <p>The <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="Fancy word for a beetle.">scarabaeus</span> hung quite clear of any branches, and, if allowed to fall, would have fallen at our feet. Legrand immediately took the scythe, and cleared with it a circular space, three or four yards in diameter, just beneath the insect, and, having accomplished this, ordered Jupiter to let go the string and come down from the tree.
+      </p>
+      """
+  'Form Abide':
+    'prefix': 'form-abide'
+    'body': """
+      <form data-abide novalidate>
+        <div data-abide-error class="alert callout" style="display: none;">
+          <p><i class="fi-alert"></i> There are some errors in your form.</p>
+        </div>
+        <div class="row">
+          <div class="small-12 columns">
+            <label>Input Label
+              <input type="text" placeholder=".small-12.columns" aria-describedby="exampleHelpText" required pattern="number">
+              <span class="form-error">
+                Yo, you had better fill this out.
+              </span>
+            </label>
+            <p class="help-text" id="exampleHelpText">Here's how you use this input field!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="medium-6 columns">
+            <label>Input Label
+              <input type="text" placeholder=".medium-6.columns" pattern="url">
+            </label>
+          </div>
+          <div class="medium-6 columns">
+            <label>Input Label
+              <select id="select" required>
+                <option value=""></option>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <fieldset class="large-6 columns">
+            <legend>Choose Your Favorite</legend>
+            <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
+            <input type="radio" name="pokemon" value="Blue" id="pokemonBlue" required><label for="pokemonBlue">Blue</label>
+            <input type="radio" name="pokemon" value="Yellow" id="pokemonYellow"><label for="pokemonYellow">Yellow</label>
+          </fieldset>
+          <fieldset class="large-6 columns">
+            <legend>Choose Your Favorite</legend>
+            <input type="radio" name="pockets" value="Red" id="pocketsRed"><label for="pocketsRed">Red</label>
+            <input type="radio" name="pockets" value="Blue" id="pocketsBlue"><label for="pocketsBlue">Blue</label>
+            <input type="radio" name="pockets" value="Yellow" id="pocketsYellow"><label for="pocketsYellow">Yellow</label>
+          </fieldset>
+          <fieldset class="large-6 columns">
+            <legend>Check these out</legend>
+            <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+            <input id="checkbox2" type="checkbox" required><label for="checkbox2">Checkbox 2</label>
+            <input id="checkbox3" type="checkbox"><label for="checkbox3">Checkbox 3</label>
+          </fieldset>
+        </div>
+        <div class="row">
+          <fieldset class="large-6 columns">
+            <button class="button" type="submit" value="Submit">Submit</button>
+          </fieldset>
+          <fieldset class="large-6 columns">
+            <button class="button" type="reset" value="Reset">Reset</button>
+          </fieldset>
+        </div>
+      </form>
+      """
+  'Equalizer':
+    'prefix': 'equalizer'
+    'body': """
+      <div class="row" data-equalizer id="test-eq">
+        <div class="medium-4 columns">
+          <div class="callout" data-equalizer-watch>
+            <img src= "assets/img/square-1.jpg">
+          </div>
+        </div>
+        <div class="medium-4 columns">
+          <div class="callout" data-equalizer-watch>
+            <p>Pellentesque habitant morbi tristique senectus et netus et, ante.</p>
+          </div>
+        </div>
+        <div class="medium-4 columns">
+          <div class="callout" data-equalizer-watch>
+            <img src= "assets/img/rectangle-1.jpg">
+          </div>
+        </div>
+      </div>
+      """
+  'Equalizer Nesting':
+    'prefix': 'equalizer-nesting'
+    'body': """
+      <div class="row" data-equalizer="foo">
+        <div class="medium-4 columns" data-equalizer-watch="foo">
+          <div class="callout" data-equalizer="bar">
+            <h3>Parent panel</h3>
+            <div class="callout" data-equalizer-watch="bar"></div>
+            <div class="callout" data-equalizer-watch="bar"></div>
+            <div class="callout" data-equalizer-watch="bar"></div>
+          </div>
+        </div>
+        <div class="medium-4 columns">
+          <div class="callout panel" data-equalizer-watch="foo"></div>
+        </div>
+        <div class="medium-4 columns">
+          <div class="callout" data-equalizer-watch="foo"></div>
+        </div>
+      </div>
+      """

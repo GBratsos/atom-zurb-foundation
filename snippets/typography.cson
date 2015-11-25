@@ -1,0 +1,57 @@
+'.text.html':
+
+  'Lead':
+    'prefix': 'lead'
+    'body': '<p class="lead">$0</p>'
+
+  'Stat':
+    'prefix': 'stat'
+    'body': '<div class="stat">$0</div>'
+
+  'Aria-hidden':
+    'prefix': 'aria-hidden'
+    'body': '<p aria-hidden="true">$0</p>'
+
+  'Show on focus':
+    'prefix': 'show-on-focus'
+    'body': '<p class="show-on-focus">$0</p>'
+
+  'no-bullet':
+    'prefix': 'no-bullet'
+    'body': """
+     <ul class="no-bullet">
+      <li>$0</li>
+     </ul>
+    """
+
+  'dl':
+    'prefix': 'dl'
+    'body':"""
+     <dl>
+      <dt>$0</dt>
+      <dd>$1</dd>
+    </dl>
+    """
+
+  'CheckBox':
+    'prefix': 'checkbox'
+    'body':"""
+      <fieldset class="large-6 columns">
+          <legend>Check these out</legend>
+          <input id="checkbox" type="checkbox"><label for="checkbox">$1</label>
+        </fieldset>
+      """
+
+  'Radio':
+    'prefix': 'radio'
+    'body':"""
+      <fieldset class="large-6 columns">
+        <legend>$0</legend>
+        <input type="radio" name="$1" value="$2" id="$3" required><label for="$4">$5</label>
+      </fieldset>
+      """
+  'Help Text':
+    'prefix': 'help-text'
+    'body':"""
+      <p class="help-text" id="$0">$1</p>
+      """

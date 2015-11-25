@@ -1,0 +1,18 @@
+{
+    "name": "atom-zurb-foundation",
+    "main": "./lib/atom-zurbfoundation",
+    "version": "0.0.0",
+    "description": "Zurb Foundation 6 for sites snippets.",
+    "keywords": [
+    "zurb foundation for sites",
+    "zurb foundation 6",
+    "atom-snippets",
+    "responsive framework",
+    "zurb foundation"
+  ],
+    "repository": "https://github.com/gbratsos/atom-zurbfoundation",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    }
+}

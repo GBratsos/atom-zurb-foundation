@@ -1,0 +1,157 @@
+'.text.html, .text.css, .source.js':
+  'editor':
+    'completions': [
+
+      # Snippets
+
+      # Grid
+      'small-offset-'
+      'medium-offset-'
+      'large-offset-'
+      'small-collapse'
+      'medium-collapse'
+      'large-collapse'
+      'small-centered'
+      'medium-centered'
+      'large-centered'
+      'small-uncentered'
+      'medium-uncentered'
+      'large-uncentered'
+      'small-push-'
+      'medium-push-'
+      'large-push-'
+      'small-pull-'
+      'medium-pull-'
+      'large-pull-'
+      'small-up'
+      'medium-up'
+      'large-up'
+
+      #Flex Grid
+      'shrink'
+      'medium-expand'
+      'large-expand'
+      'medium-unstack'
+      'large-unstack'
+      'align-right'
+      'align-center'
+      'align-justify'
+      'align-spaced'
+      'align-middle'
+      'align-top'
+      'align-bottom'
+      'align-stretch'
+      'order-'
+      'small-order-'
+      'medium-order-'
+      'large-order-'
+
+
+      #Forms
+      'right-label'
+      'middle-label'
+      'inline-group'
+
+      #Visibility Classes
+      'show-for-small'
+      'show-for-medium'
+      'show-for-large'
+      'show-for-small-only'
+      'show-for-medium-only'
+      'show-for-large-only'
+      'hide-for-small'
+      'hide-for-medium'
+      'hide-for-large'
+      'hide-for-small-only'
+      'hide-for-medium-only'
+      'hide-for-large-only'
+      'hide'
+      'invinsible'
+      'show-for-landscape'
+      'show-for-portrait'
+      'show-for-sr'
+
+      #Float Classes
+      'left'
+      'right'
+      'float-center'
+
+      #Typography
+      'text-left'
+      'text-right'
+      'text-center'
+      'text-justify'
+      'subheader'
+
+      #Button
+      'success'
+      'alert'
+      'tiny'
+      'small'
+      'large'
+      'expanded'
+      'secondary'
+      'success'
+      'warning'
+      'disabled'
+      'hollow'
+      'dropdown'
+
+      #Button Group
+      # 'button-group'
+      # 'secondary-button-group'
+      # 'expanded-button-group'
+      # 'stacked-button-group'
+      # 'split-buttons'
+      # 'close-button'
+      # 'slider'
+      # 'slider-vertical'
+      # 'slider-disabled'
+      # 'slider-two-handles'
+      # 'switch'
+      # 'switch-radio'
+      # 'switch-advanced'
+
+
+      #Navigation
+      # 'menu'
+      # 'dropdown-menu'
+      # 'accordion-menu'
+      # 'topbar-menu'
+      # 'responsive-menu'
+      # 'responsive-menu-vertical'
+      # 'responsive-menu-toggle'
+      # 'magellan-menu'
+      # 'sticky'
+      # 'pagination'
+      # 'pagination-centered'
+      # 'breadcrumb'
+      # 'accordion'
+
+      #Containers
+      # 'accordion-multiexpand'
+      # 'accordion-closed'
+      # 'callout'
+      # 'callout-primary'
+      # 'callout-secondary'
+      # 'callout-success'
+      # 'callout-warning'
+      # 'callout-alert'
+      # 'callout-small'
+      # 'callout-large'
+      # 'callout-alert'
+      # 'dropdown-toggle'
+      # 'dropdown-hover'
+      # 'off-canvas'
+      'reveal-for-large'
+
+      #Media
+      'flex-video'
+      'widescreen'
+      'vimeo'
+      #Tooltip
+      'top'
+      'right'
+      'left'
+
+    ]
