@@ -6,7 +6,7 @@ Provides [Zurb Foundation for sites][1] classes and HTML tags with autocompletio
 
 Install:
 ```bash
-apm install atom-zurbfoundation
+apm install atom-zurb-foundation
 ```
 
 ## Features:
