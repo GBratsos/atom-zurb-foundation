@@ -8,6 +8,16 @@
     </div>
     """
 
+  'Row column':
+    'prefix': 'row-column'
+    'body': """
+    <div class="row">
+      <div class="column">
+      $1
+      </div>
+    </div>
+    """
+
   'Small Grid':
     'prefix': 'small-'
     'body': """
