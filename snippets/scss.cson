@@ -19,3 +19,7 @@
       $2
     }
     """
+
+  'Calculate rem':
+    'prefix': 'rem-calc'
+    'body': 'rem-calc($1)'
