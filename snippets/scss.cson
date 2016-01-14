@@ -1,0 +1,21 @@
+'.source.scss':
+
+  'Import Foundation':
+    'prefix': 'foundation'
+    'body': "@import 'foundation';"
+
+  'Everything Foundation':
+    'prefix': 'foundation-everything'
+    'body': """
+    @import 'foundation';
+
+    @include foundation-everything;
+    """
+
+  'Breakpoint':
+    'prefix': 'breakpoint'
+    'body': """
+    @include breakpoint(${1:small}) {
+      $2
+    }
+    """
