@@ -16,7 +16,7 @@
     'prefix': 'media-foundation'
     'body': """
     @include breakpoint(${1:small}) {
-      $2
+    \t$2
     }
     """
 
@@ -24,7 +24,7 @@
       'prefix': 'breakpoint'
       'body': """
       @include breakpoint(${1:small}) {
-        $2
+      \t$2
       }
       """
 
