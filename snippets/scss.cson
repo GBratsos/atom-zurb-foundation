@@ -7,8 +7,6 @@
   'Everything Foundation':
     'prefix': 'foundation-everything'
     'body': """
-    @import 'foundation';
-
     @include foundation-everything;
     """
 
