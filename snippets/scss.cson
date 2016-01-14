@@ -12,13 +12,21 @@
     @include foundation-everything;
     """
 
-  'Breakpoint':
-    'prefix': 'breakpoint'
+  '@media Foundation':
+    'prefix': 'media-foundation'
     'body': """
     @include breakpoint(${1:small}) {
       $2
     }
     """
+
+  'Breakpoint':
+      'prefix': 'breakpoint'
+      'body': """
+      @include breakpoint(${1:small}) {
+        $2
+      }
+      """
 
   'Calculate rem':
     'prefix': 'rem-calc'
