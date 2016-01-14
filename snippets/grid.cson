@@ -4,7 +4,7 @@
     'prefix': 'row'
     'body': """
     <div class="row">
-      $1
+    \t$1
     </div>
     """
 
@@ -12,9 +12,9 @@
     'prefix': 'row-column'
     'body': """
     <div class="row">
-      <div class="column">
-      $1
-      </div>
+    \t<div class="column">
+    \t\t$1
+    \t</div>
     </div>
     """
 
@@ -22,7 +22,7 @@
     'prefix': 'small-'
     'body': """
     <div class="small-${1:1-12} columns">
-      $0
+    \t$0
     </div>
     """
 
@@ -30,7 +30,7 @@
     'prefix': 'medium-'
     'body': """
     <div class="medium-${1:1-12} columns">
-      $0
+    \t$0
     </div>
     """
 
@@ -38,20 +38,20 @@
     'prefix': 'large-'
     'body': """
     <div class="large-${1:1-12} columns">
-      $0
+    \t$0
     </div>
     """
   'XLarge Grid':
     'prefix': 'xlarge-'
     'body': """
     <div class="xlarge-${1:1-12} columns">
-      $0
+    \t$0
     </div>
     """
   'XXLarge Grid':
     'prefix': 'xxlarge-'
     'body': """
     <div class="xxlarge-${1:1-12} columns">
-      $0
+    \t$0
     </div>
     """
