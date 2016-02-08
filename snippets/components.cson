@@ -38,7 +38,7 @@
     <div class="button-group">
       <a class="button">$1</a>
       <a class="dropdown button arrow-only">
-        <span> class="show-for-sr">$2</span>
+        <span class="show-for-sr">$2</span>
       </a>
     </div>
     """
