@@ -45,7 +45,7 @@
   'Close Button':
     'prefix': 'close-button'
     'body': """
-    <button class="close-button arial-label="Close alert" type="button">
+    <button class="close-button" arial-label="Close alert" type="button">
       <span aria-hidden="true">&times'</span>
     </button>
     """
