@@ -38,14 +38,14 @@
     <div class="button-group">
       <a class="button">$1</a>
       <a class="dropdown button arrow-only">
-        <span> class="show-for-sr">$2</span>
+        <span class="show-for-sr">$2</span>
       </a>
     </div>
     """
   'Close Button':
     'prefix': 'close-button'
     'body': """
-    <button class="close-button arial-label="Close alert" type="button">
+    <button class="close-button" arial-label="Close alert" type="button">
       <span aria-hidden="true">&times'</span>
     </button>
     """
