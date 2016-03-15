@@ -28,4 +28,4 @@
 
   'Calculate rem':
     'prefix': 'rem-calc'
-    'body': 'rem-calc($1)'
+    'body': 'rem-calc($1)$0'
