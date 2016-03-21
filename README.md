@@ -1,5 +1,7 @@
 # Zurb Foundation for sites support for [Atom.io](https://atom.io/)
 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
 Provides [Zurb Foundation for sites][1] classes and HTML tags with autocompletion features.
 
 ![Atom.io Zurb Foundation 6](https://github.com/GBratsos/atom-zurb-foundation/blob/master/image.jpg?raw=true)
