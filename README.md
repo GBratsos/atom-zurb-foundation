@@ -10,6 +10,7 @@ Install:
 ```bash
 apm install atom-zurb-foundation
 ```
+Prior to use snippets it is necessary to save new untitled file as e.g. "something.html"  
 
 ## Features:
 
