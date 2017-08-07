@@ -1,7 +1,7 @@
 {
   "name": "atom-zurb-foundation",
   "main": "./lib/atom-zurbfoundation",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Zurb Foundation 6 for sites snippets.",
   "keywords": [
     "zurb foundation for sites",
