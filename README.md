@@ -30,6 +30,7 @@ The package includes the following components and classes:
 
   - Grid
   - Flex Grid
+  - XY Grid
   - Forms
   - Visibility classes
   - Float classes
@@ -63,6 +64,7 @@ The package includes the following components and classes:
 
   - Accordion
   - Callout
+  - Card
   - Dropdown
   - Media Object
   - Off-canvas
@@ -73,12 +75,13 @@ The package includes the following components and classes:
 ### Media
 
   - Badge
-  - Flex Video
+  - Responsive Embed
   - Label
   - Orbit
   - Progress Bar
   - Thumbnail
   - Tooltip
+    - Flex Video
 
 ### Plugins
 

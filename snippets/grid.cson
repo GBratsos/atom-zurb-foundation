@@ -4,17 +4,53 @@
     'prefix': 'row'
     'body': """
     <div class="row">
-    \t$1
+    \t$0
     </div>
     """
 
-  'Row column':
+  'Grid-container':
+    'prefix': 'grid-container'
+    'body': """
+    <div class="grid-container">
+    \t<div class="grid-x">
+    \t\t$0
+    \t</div>
+    </div>
+    """
+
+  'Grid-x':
+    'prefix': 'grid-x'
+    'body': """
+    <div class="grid-x">
+    \t<div class="cell">
+    \t\t$0
+    \t</div>
+    </div>
+    """
+
+  'Grid-y':
+    'prefix': 'grid-y'
+    'body': """
+    <div class="grid-y" style="height: ${200:1-1000}px;">
+    \t<div class="cell">
+    \t\t$0
+    \t</div>
+    </div>
+    """
+
+  'Combined Column/Row':
     'prefix': 'row-column'
     'body': """
-    <div class="row">
-    \t<div class="column">
-    \t\t$1
-    \t</div>
+    <div class="column row">
+    \t$0
+    </div>
+    """
+
+  'Fluid Row':
+    'prefix': 'flud-row'
+    'body': """
+    <div class="expanded row">
+    \t$0
     </div>
     """
 
