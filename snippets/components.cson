@@ -275,7 +275,7 @@
         <li><a href="#">Four</a></li>
       </ul>
       """
-  'Drilldown Menu':
+  'Drilldown Menu Top':
     'prefix': 'dropdown-menu-scroll-top'
     'body': """
       <ul class="vertical menu drilldown" data-drilldown data-scroll-top="true">
@@ -526,7 +526,7 @@
         </li>
       </ul>
       """
-  'Accordion Multi-expand':
+  'Accordion Multi-expand Closed':
     'prefix': 'accordion-closed'
     'body': """
       <ul class="accordion" data-accordion data-allow-all-closed="true">
